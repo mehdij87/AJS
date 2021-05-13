@@ -7,7 +7,6 @@
       let totalNamveValue = calculateNumericForString($scope.name);
       $scope.total = totalNamveValue;
     };
-
     function calculateNumericForString(string) {
       let totalStringValue = 0;
       for (let i = 0; i < string.length; i++) {
